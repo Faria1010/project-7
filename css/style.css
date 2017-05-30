@@ -1,0 +1,245 @@
+body{
+	margin: 0;
+	padding: 0
+	font-size: 16px;
+    color: #9b9999;
+    line-height: 100%;
+}
+@font-face {
+     font-family: Pacifico;
+     src: url('../font/Pacifico.ttf');
+ }
+
+  @font-face {
+     font-family: proxima-nova;
+     src: url('../font/proxima-nova.otf');
+ }
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+}
+
+.container{
+	width: 1180px;
+	margin: 0 auto;
+
+}
+
+.banner_wrapper{
+
+background: url(../images/header.jpg) no-repeat center center /cover;
+
+width: 100%;
+}
+
+header{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+}
+
+.logo{
+	font-family: Pacifico;
+	font-size: 40px;
+	color: white;
+}
+
+header .icon{
+}
+
+header .icon ul{
+    display: flex;
+}
+
+header .icon ul li{}
+
+header .icon ul li a{
+    color: #bbbbbb;
+    background: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon ul li a i{}
+
+nav{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+.search{}
+.search a{
+    color: #dedcd9;
+}
+
+.slider{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px 40px;
+}
+.prev{font-size: 35px;color: rgba(218, 217, 217, 0.61);}
+.prev i{}
+
+.banner{}
+
+.banner h1{
+    text-transform: capitalize;
+}
+.banner p{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.banner button{
+    text-transform: uppercase;
+    padding: 5px;
+    color: white;
+    background: rgba(245, 245, 245, 0);
+    border: 1px solid white;
+}
+
+.next{
+    font-size: 35px;
+    color: rgb(218, 217, 217);
+}
+.next i{
+    
+}
+.content{
+	text-align: center;
+    padding: 50px;
+    margin: 0 45px;
+}
+.content h2{
+    margin-top: 50px;
+    color: #636363;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.content p{
+    text-transform: capitalize;
+    line-height: 1.6em;
+}
+
+hr{
+    width: 70%;
+}
+
+.icon-bar{
+    margin-top: 60px;
+}
+.icon-bar ul{
+    display: flex;
+}
+.icon-bar ul li{
+    text-align: center;
+}
+.icon-bar li img{
+}
+.icon-bar h3{
+    text-transform: uppercase;
+    color: #636363;
+    font-weight: bold;
+}
+.icon-bar p{
+    margin: 0 20px;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+.icon-bar a{color: #4e904e;font-size: 16px;text-transform: capitalize;}
+
+
+.latest-work{
+    background: url(../images/banner.jpg) no-repeat center center/cover;
+    margin-top: 50px;
+    padding: 80px;
+}
+.work{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.work h2{}
+.work p{}
+
+.navigation{
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.navigation ul li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.purchase{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 49px 0;
+}
+.purchase h2{
+    text-transform: capitalize;
+    color: #6b6b6b;
+}
+.purchase p{
+    line-height: 1.5em;
+}
+.purchase button{
+    background: #61ad61;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer{
+
+}
+
+.deliver{}
+.deliver p{}
+
+.info{}
+.info ul{}
+.info ul li{}
+.info ul li h4{}
+.info ul li a{}
+
+.copyright{
+
+}
+.copyright span{}
